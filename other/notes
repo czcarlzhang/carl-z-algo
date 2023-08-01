@@ -1,0 +1,18 @@
+Recurrent Neural Networks are different from normal nerual networks as they remember the past.
+
+Normal models x to predict y
+RNN models y to predict y, what I will eat today depends on what I ate tomorrow
+
+LSTM is the most famous RNN (Long short term memory)\
+
+Parts in LSTM
+sigmoid can output 0 to 1, can be used to forget or remember info
+tanh overcome vainishing gradient problem (Decides weight) (-1 to 1)
+
+return_sequences=True, when adding another LSTM layer
+
+
+how many units of LSTM?
+Dropout - what percent of data to Dropout
+
+Dense(unit=1) output is 1 value
